@@ -1,6 +1,6 @@
 # Домашнее задание «Репликация и масштабирование. Часть 1»
 
-## Задание 1:
+## Задание 1
 - На лекции рассматривались режимы репликации master-slave, master-master, опишите их различия.  
 - Ответить в свободной форме.
 
@@ -53,6 +53,13 @@
 ![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/БД4.png)
 
 
+Запускаем контейнеры и ждем инициализации
+
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/Этап%2021-22.png)
+
+Проверяем логи
+
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/2-3%20логи.png)
 
 
 
