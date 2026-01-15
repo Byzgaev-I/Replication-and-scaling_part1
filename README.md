@@ -62,10 +62,27 @@
 ![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/2-3%20логи.png)
 
 
+### Настройка Master сервера
 
+ Входим в Master
+```bash
+docker exec -it mysql-master mariadb -uroot -prootpass123
+```
+Создаём пользователя для репликации
 
-
-
+Выполняем в консоли MariaDB:
+```sql
+CREATE USER 'replica_user'@'%' IDENTIFIED BY 'replica_pass123';
+```
+```sql
+GRANT REPLICATION SLAVE ON __.__ TO 'replica_user'@'%';
+```
+```sql
+FLUSH PRIVILEGES;
+```
+```sql
+SHOW MASTER STATUS;
+```
 
 
 
