@@ -41,9 +41,16 @@
 - Создаём docker-compose.yml
 
 ### Структура:
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/БД1.png)
 
-  ![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/БД1.png)
+### docker-compose.yml
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/БД2.png) 
 
+### Конфигурация Master
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/БД3.png)
+
+### Конфигурация Slave
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/БД4.png)
 
 
 
