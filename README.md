@@ -35,53 +35,15 @@
 
 ### Выполнение:  
 
-Создаём рабочую директорию
-```bash
-cat > docker-compose.yml << 'EOF'
-version: '3.8'
+- Создаём рабочую директорию
+- Создаём конфигурацию Master
+- Создаём конфигурацию Slave
+- Создаём docker-compose.yml
 
-services:
-  mysql-master:
-    image: mariadb:latest
-    container_name: mysql-master
-    environment:
-      MYSQL_ROOT_PASSWORD: rootpass123
-      MYSQL_DATABASE: testdb
-    ports:
-      - "3306:3306"
-    volumes:
-      - ./master/conf/my.cnf:/etc/mysql/conf.d/my.cnf
-      - master-data:/var/lib/mysql
-    networks:
-      - mysql-network
-    restart: unless-stopped
+### Структура:
 
-  mysql-slave:
-    image: mariadb:latest
-    container_name: mysql-slave
-    environment:
-      MYSQL_ROOT_PASSWORD: rootpass123
-    ports:
-      - "3307:3306"
-    volumes:
-      - ./slave/conf/my.cnf:/etc/mysql/conf.d/my.cnf
-      - slave-data:/var/lib/mysql
-    networks:
-      - mysql-network
-    depends_on:
-      - mysql-master
-    restart: unless-stopped
+  ![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/БД1.png)
 
-networks:
-  mysql-network:
-    driver: bridge
-
-volumes:
-  master-data:
-  slave-data:
-EOF
-
-```
 
 
 
