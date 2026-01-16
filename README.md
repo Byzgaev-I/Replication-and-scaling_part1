@@ -111,6 +111,9 @@ SHOW MASTER STATUS;
 ![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/Финальные%20статусы.png)
 
 
+### На последнем скрине видим, что репликация работает успешно
+
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/Снимок%20экрана%202026-01-16%20в%2003.15.48.png) 
 
 
 
