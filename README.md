@@ -53,11 +53,11 @@
 ![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/БД4.png)
 
 
-Запускаем контейнеры и ждем инициализации
+### Запускаем контейнеры и ждем инициализации
 
 ![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/Этап%2021-22.png)
 
-Проверяем логи
+### Проверяем логи
 
 ![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/2-3%20логи.png)
 
@@ -83,6 +83,12 @@ FLUSH PRIVILEGES;
 ```sql
 SHOW MASTER STATUS;
 ```
+### Настройка Master и его статус
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/М3.png)
+
+### Создание и импорт дампа базы данных
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/Ь4.png) 
+
 
 
 
