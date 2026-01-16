@@ -90,8 +90,25 @@ SHOW MASTER STATUS;
 ![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/Ь4.png) 
 
 
+###  Смотрим Slave Status
 
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/Slave%20Status.png)
 
+### Репликация данных
+
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/Репликация%20данных.png)
+
+### Проводим дополнительное тестирование
+
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/ДопТест.png)
+
+### Смотрим Read-Only режим
+
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/Read-Only%20режим.png) 
+
+### Проверяем финальные статусы
+
+![image](https://github.com/Byzgaev-I/Replication-and-scaling_part1/blob/main/Финальные%20статусы.png)
 
 
 
